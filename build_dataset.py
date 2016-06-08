@@ -3,11 +3,14 @@ import os.path
 import shutil
 from PIL import Image
 
-original_positive = "new/"
+original_positive = "high/"
 other_negative1 = "big/"
-other_negative2 = "high/"
-positive_path = "positive1/"
-negative_path = "negative1/"
+other_negative2 = "new/"
+positive_path = "positive2/"
+negative_path = "negative2/"
+
+os.mkdir(positive_path)
+os.mkdir(negative_path)
 
 idx = 1
 for parent,dirname,filename in os.walk(original_positive):

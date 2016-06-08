@@ -3,9 +3,9 @@ import os
 import os.path
 import shutil
 
-positive_path = "positive1/"
-negative_path = "negative1/"
-feature_path = "feature.txt"
+positive_path = "positive2/"
+negative_path = "negative2/"
+feature_path = "feature2.txt"
 
 fr_w = open(feature_path,"w")
 winSize = (40,40)
